@@ -144,6 +144,7 @@ nav a {
   align-items: end;
 }
 
+/* controls each image for the background of the cards */
 .surf {
   background-image: url("https://picsum.photos/seed/picsum/900/600");
   background-repeat: no-repeat;
