@@ -27,16 +27,13 @@ h1 {
 h2 {
   display: flex;
   font-size: 4rem;
-  justify-content: end;
+  
 }
 
 h3 {
   font-size: 2.5rem;
 }
   
-p {
-  margin-bottom: 1.5rem;
-}
 
 article {
   font-size: 2rem;
@@ -104,21 +101,31 @@ nav a {
   justify-content: end;
   padding: 10px 20px;
   width: 15%;
-  margin: 50px 0 0 0;
+  margin: 25px 0 ;
 }
 
 .column-right {
   width: 80%;
   border-left: 3px solid var(--charcoal);
   padding-left: 50px;  
-  margin: 50px 0 0 0;
+  margin: 25px 0 ;
 }
 
 .large-card {
   width: 90%;
-  height: 50vh;
+  height: 500px;
   border: 5px solid var(--light-blue);
+  display: flex;
   margin: 2px;
+  position: relative;
+}
+
+
+.picture {
+  background-image: url("https://picsum.photos/seed/picsum/900/600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
 }
 
 .stacked-cards {
@@ -127,13 +134,40 @@ nav a {
 }
 
 .card {
+  background-image: url("https://picsum.photos/450/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  opacity: 0.5;
   width: 45%;
-  height: 25vh;
+  height: 250px;
   border: 5px solid var(--light-blue);
   margin: 2px;
   align-items: end;
+  
 }
-.card-body {
+
+.card-header {
   background-color: var(--light-blue);
-  width: auto;
+  position: relative;
+  bottom: 10px;
+  max-height: 100px;
+  opacity: 1;
+  padding: 25px;
+  margin-top: 10%;
+}
+
+
+.position-absolute {
+  position: absolute;
+}
+
+.picture:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1160px) {
+  .row {
+    flex-direction: column;
+  }
 }
