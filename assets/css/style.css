@@ -90,6 +90,8 @@ nav a {
   font-weight: bold;
 }
 
+
+/* creates rules for the greater "About Me", "Work", and "Contact Me" rows */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -111,6 +113,7 @@ nav a {
   margin: 25px 0 ;
 }
 
+/* controlls largest card in work section */
 .large-card {
   width: 90%;
   height: 500px;
@@ -122,10 +125,7 @@ nav a {
 
 
 .picture {
-  background-image: url("https://picsum.photos/seed/picsum/900/600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .stacked-cards {
@@ -133,18 +133,45 @@ nav a {
   flex-wrap: wrap;
 }
 
+/* controlls smaller image in work section */
 .card {
-  background-image: url("https://picsum.photos/450/300");
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
-  opacity: 0.5;
+  opacity: 0.75;
   width: 45%;
   height: 250px;
   border: 5px solid var(--light-blue);
   margin: 2px;
   align-items: end;
-  
+}
+
+.surf {
+  background-image: url("https://picsum.photos/seed/picsum/900/600");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.led {
+  background-image: url("https://picsum.photos/id/0/450/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calculator {
+    background-image: url("https://picsum.photos/id/639/450/300");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzels {
+  background-image: url("https://picsum.photos/id/36/450/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buddy {
+  background-image: url("https://picsum.photos/id/491/450/300");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-header {
