@@ -20,7 +20,7 @@ To view the page, navigate to the below we address. You should be greeted with a
 https://nreece6.github.io/first-professional-portfolio/
 
 ![alt text](assets/photos/portfolio-landing-page.PNG)
-![alt text](assets/images/porfolio-landing-page-2.png)
+![alt text](assets/photos/porfolio-landing-page-2.png)
 
 ## Credits
 
